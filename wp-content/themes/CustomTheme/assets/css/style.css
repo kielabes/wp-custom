@@ -1,0 +1,12 @@
+body {
+    background: #f7f7f7;
+}
+
+.container-fluid {
+    padding: 0 !important;
+}
+
+.theme-banner {
+    background: rgb(146, 146, 146);
+    height: 250px;
+}
