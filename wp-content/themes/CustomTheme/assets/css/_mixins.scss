@@ -1,0 +1,20 @@
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -ms-border-radius: $radius;
+    -moz-border-radius: $radius;
+    border-radius: $radius;
+}
+
+@mixin flexCenter($direction) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+}
+
+@mixin boxShadow($shadowColor) {
+    -webkit-box-shadow: 0 5px 10px $shadowColor;
+    -ms-box-shadow: 0 5px 10px $shadowColor;
+    -moz-box-shadow: 0 5px 10px $shadowColor;
+    box-shadow: 0 5px 10px $shadowColor;
+}

@@ -41,6 +41,7 @@ function load_js(){
 }
 add_action('wp_enqueue_scripts', 'load_js');
 
+// Adding a menu
 add_theme_support('menus');
 
 register_nav_menus( array(
@@ -49,3 +50,11 @@ register_nav_menus( array(
 
 // Bootstrap Walker
 require get_template_directory() . '/inc/bootstrap-navwalker.php';
+
+
+// Adding Featured Image
+add_theme_support('post-thumbnails');
+
+// Images sizes
+add_image_size('smallest', 300, 300, true);
+add_image_size('largest', 800, 800, true);

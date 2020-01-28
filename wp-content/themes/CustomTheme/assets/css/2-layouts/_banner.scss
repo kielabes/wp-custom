@@ -1,0 +1,10 @@
+.theme-banner {
+    background: $default;
+    height: 510px;
+    @include flexCenter(column);
+    .main-title {
+        @include flexCenter(column);
+        font-size: 4rem;
+        color: $white;
+    }
+}

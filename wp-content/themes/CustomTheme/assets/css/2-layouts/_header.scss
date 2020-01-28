@@ -1,0 +1,21 @@
+.navbar {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+#menu-main-menu {
+    width: 100% !important;
+    max-width: 100% !important;
+    @include flexCenter(row);
+    #nav-link {
+        padding: 12px 24px !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #menu-main-menu {
+        width: 100% !important;
+        max-width: 100% !important;
+        @include flexCenter(column);
+    }
+}

@@ -27,7 +27,7 @@ if ( ! function_exists( 'bootstrap_setup' ) ):
         $attributes .= ! empty( $item->url )        ? ' href="'   . esc_attr( $item->url        ) .'"' : '';
         $attributes .= ($args->has_children)      ? ' class="nav-link dropdown-toggle" data-toggle="dropdown"' : '';
         $item_output = $args->before;
-        $item_output .= '<a'. $attributes .' class="nav-link">';
+        $item_output .= '<a'. $attributes .' class="nav-link" id="nav-link">';
         $item_output .= $args->link_before . apply_filters( 'the_title', $item->title, $item->ID ) . $args->link_after;
         $item_output .= ($args->has_children) ? ' <b class="caret"></b></a>' : '</a>';
         $item_output .= $args->after;
