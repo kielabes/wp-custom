@@ -7,7 +7,6 @@
 
 <div class="container pt-5">
 
-
     <div class="row">
 
         <?php if (have_posts()) : while(have_posts()) : the_post();?>
@@ -16,11 +15,11 @@
 
     </div>
 
-
 </div>
 <div class="container-fluid bg-white">
 <div class="container">
     <div class="row pt-5">
+
         <div class="col-md-6">
             <h3>IRON MAN</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et leo fermentum, porttitor odio sit amet, dignissim orci. Mauris eget tortor id ante vestibulum sollicitudin sed ac massa. 
@@ -28,6 +27,7 @@
             <button class="btn btn-danger">I AM IRON MAN</button>
         </div>
         <div class="col-md-6"><img src="http://localhost/custom/wp-content/uploads/2020/01/iron.png" alt="" srcset="" height="100%" width="450"></div>
+    
     </div>
 </div>
 </div>
